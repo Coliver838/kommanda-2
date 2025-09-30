@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #f9f9f9;
+}
+
+.how-made {
+  background: #fff5f7;
+  padding: 50px 20px;
+  border-radius: 15px;
+  max-width: 1000px;
+  margin: 40px auto;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+.how-made .subtitle {
+  text-align: center;
+  font-size: 14px;
+  color: #ff4d6d;
+  font-weight: bold;
+  margin: 0;
+}
+.how-made .title {
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+  margin: 10px 0 40px;
+  font-weight: 900;
+}
+.how-made .main {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.how-made .main .image {
+  flex: 1 1 300px;
+  text-align: center;
+}
+.how-made .main .image img {
+  width: 250px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.how-made .main .image .milk-jar {
+  width: 100px;
+  height: 150px;
+  background: white;
+  border-radius: 10px;
+  margin: 10px auto 0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.how-made .main .text {
+  flex: 1 1 300px;
+}
+.how-made .main .text p {
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+.how-made .main .text .btn {
+  display: inline-block;
+  background: #ff4d6d;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.how-made .main .text .btn:hover {
+  background: #e64460;
+}
+.how-made .stats {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.how-made .stats .stat {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+.how-made .stats .stat .number {
+  font-size: 32px;
+  font-weight: 900;
+  color: #ff4d6d;
+  display: block;
+  margin-bottom: 10px;
+}
+.how-made .stats .stat p {
+  color: #333;
+  font-size: 14px;
+}
